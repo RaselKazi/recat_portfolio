@@ -1,0 +1,32 @@
+/* Single Team Member */
+.team_member_img{
+    min-height: 260px;
+}
+.team_member_details h6{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.team_member_details p{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+.team_social ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #b5b5b5;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team_social ul li a:hover{
+    outline: none;
+    color: #666;
+}

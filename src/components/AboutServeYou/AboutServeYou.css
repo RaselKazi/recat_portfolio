@@ -1,0 +1,17 @@
+.serve_you_area{
+    background: #fbfbfb;
+}
+.serve_you_area h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.serve_you_area p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #666666;
+}

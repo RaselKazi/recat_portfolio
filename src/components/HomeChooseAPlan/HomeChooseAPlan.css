@@ -1,0 +1,60 @@
+/* Pricing Table Details */
+.chooseaplan_details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.chooseaplan_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+/* Single Pricing Table */
+.single_pricing_table h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.price_box span.price_currency{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 52px;
+    color: #222222;
+    position: relative;
+    top: -20px;
+    margin-right: 0;
+}
+.price_box span.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 52px;
+    color: #222222;
+}
+.price_box span.price_time{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 52px;
+    color: #b5b5b5;
+}
+.pricing_details ul li i{
+    font-size: 14px;
+    line-height:14px;
+    color: #2E5BFF;
+}
+.pricing_details button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.single_pricing_table button{
+    background: #2E5BFF;
+}

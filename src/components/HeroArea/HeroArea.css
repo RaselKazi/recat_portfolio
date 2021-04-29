@@ -1,0 +1,250 @@
+/* Hero Area */
+.hero_area{
+    height: 950px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2e6ffb), to(#2ec6e7));
+    background-image: -webkit-linear-gradient(40deg, #2e5bff 0%, #2effda 100%);
+    background-image: -o-linear-gradient(40deg, #2e5bff 0%, #2effda 100%);
+    background-image: linear-gradient(40deg, #2e5bff 0%, #2effda 100%);
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.hero{
+    padding-top: 100px;
+}
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.hero button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color:rgba(34, 34, 34, 0.8);
+}
+/* Shape Animation */
+.tb-circle-shape1,
+.tb-circle-shape2,
+.tb-circle-shape3 {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: -99999999;
+}
+
+.tb-circle-shape1 {
+  background-color: #2e7ef7;
+  width: 248px;
+  height: 248px;
+  left: -3.5%;
+  top: 10%;
+  -webkit-animation: shapAnimation3 10s ease-in-out infinite;
+  animation: shapAnimation3 10s ease-in-out infinite;
+}
+
+.tb-circle-shape2 {
+  background-color: #2e80f6;
+  width: 123px;
+  height: 123px;
+  left: 13.5%;
+  top: 50%;
+  -webkit-animation: shapAnimation3 5s ease-in-out infinite;
+  animation: shapAnimation3 5s ease-in-out infinite;
+}
+
+.tb-circle-shape3 {
+  background-color: #2be2e5;
+  width: 521px;
+  height: 521px;
+  top: -140px;
+  right: -300px;
+  -webkit-animation: shapAnimation3 10s ease-in-out infinite;
+  animation: shapAnimation3 10s ease-in-out infinite;
+}
+
+@-webkit-keyframes shapAnimation3 {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
+    }
+  
+    20% {
+      -webkit-transform: translate(-10px, -5px);
+      transform: translate(-10px, -5px);
+    }
+  
+    40% {
+      -webkit-transform: translate(0px, -10px);
+      transform: translate(0px, -10px);
+    }
+  
+    60% {
+      -webkit-transform: translate(10px, 0px);
+      transform: translate(10px, 0px);
+    }
+  
+    80% {
+      -webkit-transform: translate(10px, 10px);
+      transform: translate(10px, 10px);
+    }
+  
+    100% {
+      -webkit-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  
+  @keyframes shapAnimation3 {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
+    }
+  
+    20% {
+      -webkit-transform: translate(-10px, -5px);
+      transform: translate(-10px, -5px);
+    }
+  
+    40% {
+      -webkit-transform: translate(0px, -10px);
+      transform: translate(0px, -10px);
+    }
+  
+    60% {
+      -webkit-transform: translate(10px, 0px);
+      transform: translate(10px, 0px);
+    }
+  
+    80% {
+      -webkit-transform: translate(10px, 10px);
+      transform: translate(10px, 10px);
+    }
+  
+    100% {
+      -webkit-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
+    }
+  }
+  @media screen and (max-width: 767px) {
+
+    .tb-circle-shape3 {
+        width: 321px;
+        height: 321px;
+        right: -120px;
+      }
+    
+      .tb-circle-shape1 {
+        width: 120px;
+        height: 120px;
+      }
+    
+      .tb-circle-shape2 {
+        width: 80px;
+        height: 80px;
+      }
+  }
+/* Wave Animation */
+.hero_area .wave{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 150px;
+    background: url(../../images/wave.png);
+    background-size: 1000px 150px;
+}
+.hero_area .wave.wave1{
+    animation: animate 8s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom:0;
+}
+.hero_area .wave.wave2{
+    animation: animate2 4s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom:10px;
+}
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+.hero_image{
+    position: relative;
+    z-index: 1002;
+}
+
+ @media only screen and (min-width: 600px) {
+  /* For tablets: */
+  /* .hero_image {
+    position: absolute;
+    z-index: 1002;
+    left: 0;
+} */
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+  /* For desktop: */
+  /* .hero_image {
+    position: absolute;
+    z-index: 1002;
+    left: 3%;
+} */
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .hero_image {
+    position: absolute;
+    z-index: 1002;
+    left: 12%;
+}
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .hero_image {
+    position: absolute;
+    z-index: 1002;
+    left: 23%;
+} */
+} 

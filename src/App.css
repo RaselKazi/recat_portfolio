@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;500&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+section{
+  z-index: 999;
+}
+.download_wallpaper_area{
+  z-index: 999;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+.scrollToTop{
+  position: fixed;
+  bottom:25px;
+  right: 25px;
+  height: 36px;
+  width: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 10;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(17, 17, 18, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(17, 17, 18, 0.1);
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  color: #666;
+  padding-bottom: 2px;
+  /* visibility: visible; */
+}
+/* .show{
+  visibility: hidden;
+} */
+#backToTop {
+  visibility:hidden;
+  top:calc(100% / 2);
+  top:-moz-calc(100% / 2);
+  top:-o-calc(100% / 2);
+  position:fixed;
+  color:red;
+}
+.navbar-nav li a, .nav-link{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #222222!important;
+}
+.navbar-collapse form button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff!important;
+  background: #2e5bff;
+}

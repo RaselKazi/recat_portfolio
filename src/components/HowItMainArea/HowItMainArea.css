@@ -1,0 +1,64 @@
+/* How It Slider */
+.right_arrow{
+    transform: scaleX(-1);
+}
+.howit_slider img{ 
+    width: 80%;
+}
+/* How It Details */
+.serial_num{
+    margin-right: 0.5em;
+    min-width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    border: 4px solid #222222;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #222222;
+    /* color: rgb(255, 255, 255); */
+}
+.howit_details ul li{
+    cursor: pointer;
+}
+.how_it_box h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+}
+.how_it_box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+/* Single Items */
+.single_how_it{
+    background: #f2f2f2;
+}
+.single_how_it h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #484844;
+}
+.single_how_it p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+.single_how_it button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    background: #2E5BFF;
+}

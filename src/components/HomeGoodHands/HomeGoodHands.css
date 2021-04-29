@@ -1,0 +1,64 @@
+/* Good Hands Details */
+.good_hands_details{
+
+}
+.good_hands_details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.good_hands_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+/* Single Good Hands */
+.single_good_hands{
+    border-radius: 4px;
+    -webkit-transition: all 0.45s ease;
+    -o-transition: all 0.45s ease;
+    transition: all 0.45s ease;
+}
+.single_good_hands:hover{
+    border: 1px solid #eaeaea;
+}
+.icon_box{
+    left: 20px;
+    top: 25px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    -webkit-transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 2.25);
+    -o-transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 2.25);
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 2.25);
+}
+.icon_box i{ 
+    /* color: #f16334; */
+    color: #2e5bff;
+    font-size: 25px;
+    line-height: 25px;
+}
+.single_good_hands:hover .icon_box{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.single_good_hands_details h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.single_good_hands_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}

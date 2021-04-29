@@ -1,0 +1,82 @@
+.pricing_area{
+    padding: 110px 0;
+}
+
+/* Pricing Top */
+.pricing_top{
+
+}
+.pricing_top h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #222222;
+}
+.pricing_top p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+
+/* Pricing Table */
+.pricing_table_left_col{
+    margin-top: 174px;
+}
+.pricing_table_left{
+
+}
+.pricing_table_left li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+.single_pricing_table{
+
+}
+.single_pricing_table li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+.single_pricing_table li sup.pricing_currency{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #222222;
+}
+.single_pricing_table li span.pricing_value{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #222222;
+}
+.single_pricing_table li button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    background: #2E5BFF;
+}
+.single_pricing_table li span.material-icons{
+    color: #50b83c;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+.single_pricing_table li.pricing_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}

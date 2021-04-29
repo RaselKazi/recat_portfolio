@@ -1,0 +1,15 @@
+/* Meet The Team Details */
+.MeetTheTeam_details h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.MeetTheTeam_details p{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}

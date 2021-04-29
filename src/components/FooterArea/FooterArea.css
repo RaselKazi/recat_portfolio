@@ -1,0 +1,117 @@
+footer {
+    /* position:fixed; */
+    bottom:0;
+    left:0;
+    width:100%;
+    height:auto;
+    z-index:-1;
+    background-color:#111111;
+  }
+
+  /* Footer Top */
+  .footer_middle hr, .footer_bottom hr{
+    /* border: 1px solid #ffffff6e; */
+    border: 1px solid #66666691;
+  }
+  .footer_top h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer_top button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color:#222222;
+  }
+  .footer_top button:hover{
+    color: rgba(34, 34, 34, 0.8);
+  }
+
+  /* Footer Middle */
+.footer_middle h6{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
+}
+.footer_middle ul li{
+  margin-bottom: 14px;
+}
+.footer_middle ul li a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer_middle ul li:hover a{
+  opacity: 1;
+}
+.social_menu ul li a{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.social_menu ul li:hover a{
+  opacity: 1;
+}
+.footer_middle form{
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 255px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.footer_middle form input{
+  width: 100%!;
+  background: #fff;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  height: 35px;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+.footer_middle form button{
+  background-color: #2e5bff;   
+   position: absolute;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  width: 45px;
+  border: none;
+  color: #fff;
+  /* background: #5d5a9e; */
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer_middle form button:hover{
+  opacity: 0.6;
+}
+.footer_middle form button i{
+  font-size: 14px;
+  line-height: 14px;
+}
+  /* Footer Bottom */
+  .footer_bottom p, .footer_bottom ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+  }

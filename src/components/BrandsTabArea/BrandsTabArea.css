@@ -1,0 +1,58 @@
+/* Accordion */
+.react-sanfona-item-expanded > .react-sanfona-item-body{
+    margin-bottom: 3%;
+}
+.react-sanfona-item-title{
+    border: 2px solid #2E5BFF;
+    min-height: 55px;
+    transition: all .3s;
+    padding: 20px 5px;
+    margin-bottom: 0;
+    min-height: 70px;
+    transition: background 500ms;
+    text-align: left;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 18px;
+    letter-spacing: inherit;
+    cursor: pointer;
+    color: #2E5BFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.react-sanfona-item-title:hover , .react-sanfona-item-expanded h3{
+    background: #2E5BFF;
+    color: #ffffff;
+}
+.react-sanfona-item h3:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f067";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    padding: 0px 20px;
+ }
+ .react-sanfona-item.react-sanfona-item-expanded h3:before {
+     font-family: "Font Awesome 5 Free";
+     content: "\f068";
+     display: inline-block;
+     padding-right: 3px;
+     vertical-align: middle;
+     font-weight: 900;
+     padding: 0px 20px;
+  }
+  .react-sanfona-item-body{
+      max-width: 95%;
+      color: #2E5BFF;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 23px;
+  }
+  .accordion_area h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  }

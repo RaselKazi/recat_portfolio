@@ -1,0 +1,137 @@
+.how_does_area{
+    /* The image used */
+    background-color: transparent;
+    background-image:url("../../images/brands/tab_bg.jpg");
+    
+    /* Set a specific height */
+    min-height: auto;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single_brands_democracy .sl{
+    position: absolute;
+    top: -18px;
+    left: 43%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    color: #2e5bff;
+    padding: 3px;
+    font-weight: bold;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+.single_brands_democracy .sl{
+    left: 46%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .single_brands_democracy .sl{
+        left: 46%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .single_brands_democracy .sl{
+        left: 35%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .single_brands_democracy .sl{
+        left: 41%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .single_brands_democracy .sl{
+        left: 43%;
+    }
+
+}
+.single_brands_democracy span.material-icons{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.single_brands_democracy h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.single_brands_democracy p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+/* Button */
+.single_brands_democracy a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    position: relative;
+}
+.tb-btn.tb-style1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #eaeaea;
+}
+.tb-btn.tb-style1:after {
+    height: 2px;
+    background-color: #b5b5b5;
+}
+
+.tb-btn.tb-style1:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+}
+.tb-btn.tb-style1:hover:after {
+    opacity: 1;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.tb-btn.tb-style1:hover{
+    color: #ffffff;
+}

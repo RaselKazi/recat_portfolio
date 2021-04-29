@@ -1,0 +1,103 @@
+/* Single Business Area */
+.single_business_better{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.single_business_better:hover {
+    -webkit-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+    box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+.single_business_better img{
+    overflow: hidden;
+    min-height: 245px;
+}
+.tb-zoom{ 
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.tb-zoom:hover .tb-zoom-in1 {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.tb-zoom-in1 {
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.single_business_better:hover .single_business_better img{
+    transform: scale(1.06);
+}
+.better_meta h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.better_meta p{
+    font-family: 'Robot', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+/* Button */
+.tb-btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 500;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: none;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.better_meta a{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2E5BFF;
+}
+.business_better_details h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.business_better_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #666666;
+}

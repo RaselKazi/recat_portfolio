@@ -1,0 +1,89 @@
+/* Parallax CSS */
+.parallax_area{
+    padding-top: 110px;
+    height: auto;
+}
+.parallax{
+    /* The image used */
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #0037ffed 0%, #00ffd0f8 100%), url("../../images/parallax-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: auto;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax Details */
+.parallax_details{
+
+}
+.parallax_details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+.parallax_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+/* Single Items */
+.single_parallax_item{
+
+}
+.single_parallax_icon{
+    background: rgba(255,255,255,0.3);
+    height: 48px;
+    width: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+.single_parallax_icon span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+}
+.single_parallax_item h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.single_parallax_item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* Parallax Mobile */
+.parrallax_mobile{
+/* position: relative; */
+}
+.parrallax_mobile img{
+    margin-top: -40%;
+}
+@media screen and (max-width: 767px) {
+
+    .parrallax_mobile img{
+        margin-top: 0;
+    }
+  }

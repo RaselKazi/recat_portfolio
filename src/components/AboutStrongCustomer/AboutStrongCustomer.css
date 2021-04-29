@@ -1,0 +1,28 @@
+.strong_customer_details h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #222222;
+}
+.strong_customer_details h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.strong_customer_details p, .strong_customer_details ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #666666;
+}
+.strong_customer_img img{
+    max-width: 288px;
+    height: 557px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.strong_customer_details img{ 
+    width: 205px;
+    height: 75px;
+}

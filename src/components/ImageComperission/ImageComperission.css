@@ -1,0 +1,44 @@
+.image_comparission_area{
+    padding: 110px 0;
+}
+.image_comparission_details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #222222;
+}
+.image_comparission_details ul{
+
+}
+.image_comparission_details ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+.image_comparission_details ul li span{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #18cc11;
+}
+.image_comparission_details button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #2e5bff;
+}
+.image_comparission_details button.light_button{
+    background-color: rgba(46,91,255,0.1);
+    border-color: rgba(46,91,255,0.1);
+    color: #2e5bff;
+}
+.image_comparission_details button.light_button:hover{
+    background-color: #2e5bff;
+    border-color: #2e5bff;
+    color: #ffffff;
+}

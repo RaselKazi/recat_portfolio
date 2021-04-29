@@ -1,0 +1,67 @@
+.GetInTouch_area h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.GetInTouch_area p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+/* Form */
+select, .GetInTouch_area form input[type="text"],.GetInTouch_area form input[type="url"],.GetInTouch_area form input[type="tel"], .GetInTouch_area form input[type="email"],.GetInTouch_area form textarea{
+    width: 100%;
+    border: 1px solid #eaeaea;
+    height: 43px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #666;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px!important;
+    line-height: 22px;
+    color: #666666;
+}
+.form-check label, form p, form label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px!important;
+    line-height: 22px;
+    color: #666666;
+}
+form a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px!important;
+    line-height: 22px;
+}
+select, .GetInTouch_area form input[type="text"]:focus,.GetInTouch_area form input[type="url"]:focus,.GetInTouch_area form input[type="tel"]:focus, .GetInTouch_area form input[type="email"]:focus,.GetInTouch_area form textarea:focus{
+    outline: none!important;
+    border-color: #5c6ac4!important;
+}
+.GetInTouch_area form textarea{
+    height: 140px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff!important;
+    border-color:0px solid #86b7fe!important;
+    outline: 0 none;
+    box-shadow: 0 0 5px rgba(98, 100, 228, 0) !important;
+}
+.GetInTouch_area form input[type="submit"]{
+background: #2E5BFF;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}

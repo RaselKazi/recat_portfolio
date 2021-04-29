@@ -1,0 +1,100 @@
+.brands_democracy_top h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.brands_democracy_top p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
+}
+.single_brands_democracy{
+    min-height: 322px;
+    position: relative;
+}
+/* .single_brands_democracy .sl{
+    position: absolute;
+    top: -18px;
+    left: 43%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #2e5bff;
+    color: white;
+    padding: 4px;
+}
+.single_brands_democracy span.material-icons{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2e5bff;
+}
+.single_brands_democracy h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.single_brands_democracy p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+} */
+
+/* Button */
+/* .single_brands_democracy a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #222222;
+    position: relative;
+}
+.tb-btn.tb-style1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #eaeaea;
+}
+.tb-btn.tb-style1:after {
+    height: 2px;
+    background-color: #b5b5b5;
+}
+
+.tb-btn.tb-style1:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+}
+.tb-btn.tb-style1:hover:after {
+    opacity: 1;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+} */

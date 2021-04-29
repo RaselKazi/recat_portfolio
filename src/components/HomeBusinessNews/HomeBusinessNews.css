@@ -1,0 +1,59 @@
+/* Business News Details */
+.business_news_details h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.business_news_details p{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+/* Single News */
+.single_news_img{ 
+    width: 30%
+}
+.single_news{
+
+}
+/* .single_news img{
+    height: 75px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+} */
+.single_news_details h6{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #b5b5b5;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.single_news_details h6:hover{
+    color: #13ce66;
+}
+.single_news_details h4{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.single_news_details h4:hover{
+    color: #13ce66;
+}

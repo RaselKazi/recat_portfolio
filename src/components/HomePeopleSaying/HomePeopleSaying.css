@@ -1,0 +1,78 @@
+/* What People Saying */
+.people_saying-details h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.people_saying-details p{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+/* Slider  */
+.testi_slider{
+    position: relative;
+}
+.testi_slider .slick-slider{ 
+    position: absolute!important;
+    min-width: 700px!important;
+    z-index: 2000;
+    left: 0;
+} 
+.testimonial_icon{
+    font-style: initial;
+    display: block;
+    color: #faa345;
+    height: 32px;
+    position: relative;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #f8f8f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial_icon{
+    font-size: 30px;
+    line-height: 30px;
+}
+.testimonial_details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #666666;
+}
+.testimonial_meta img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.testimonial_meta h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.testimonial_meta p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}

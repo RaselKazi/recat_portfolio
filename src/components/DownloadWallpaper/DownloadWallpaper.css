@@ -1,0 +1,44 @@
+.download_wallpaper_area{
+    /* padding: 60px 0; */
+    /* The image used */
+    background-color: transparent;
+    background-image:  url("../../images/cta-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: auto;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.download_wallpaper_details{
+
+}
+.download_wallpaper_details h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.download_wallpaper_details button{
+    background: #2E5BFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.download_wallpaper_img{
+    /* position: relative; */
+}
+.download_wallpaper_img img{
+    margin-top:-30%;
+}
+
+@media screen and (max-width: 767px) {
+    .download_wallpaper_area{
+        margin-bottom: 0px;
+    }
+}

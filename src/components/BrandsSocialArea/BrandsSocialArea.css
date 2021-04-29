@@ -1,0 +1,19 @@
+.brands_social_area h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #222222;
+}
+.brands_social_area ul li, .social_icon{
+    font-size: 55px;
+    color: #2e5bff;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.brands_social_area ul li:hover{
+    opacity: .8;
+}
+

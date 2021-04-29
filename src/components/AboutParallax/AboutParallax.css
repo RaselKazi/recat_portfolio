@@ -1,0 +1,40 @@
+.about_parallax_area{
+    background-image: url(../../images/about/x.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.about_overlay{ 
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -999;
+}
+.about_parallax_details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff;
+}
+.single_progressbar h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+}
+.single_progressbar h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
